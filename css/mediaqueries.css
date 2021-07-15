@@ -1,0 +1,33 @@
+/* MEDIA QUERIES */
+@media (max-width: 1000px) {
+  /* HOMEPAGE */
+  h1 {
+    font-size: 72px;
+  }
+
+  .collection > a >img{
+    width: 15%;
+    height: auto;
+  }
+
+  #content{
+    margin: 0 auto;
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  #header {
+    display: none;
+  }
+
+  /* COLLECTION DETAILS */
+  .frame {
+    display: block;
+    width: 90%;
+    height: auto;
+  }
+
+  .frame-info {
+    margin-right: 20%;
+  }
+}

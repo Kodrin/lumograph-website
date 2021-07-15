@@ -1,0 +1,272 @@
+/* GENERAL */
+html {
+  /* font-family: 'EB Garamond', serif; */
+  font-size: 36px;
+  font-family: minion-pro-caption,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-kerning: normal;
+  line-height: 1.2;
+}
+body {
+  display: inline-block;
+  position: absolute;
+}
+
+
+h1 {
+  font-family: minion-pro-bold,serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#lumograph > h1 {
+  font-family: minion-pro-bold,serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 42px;
+  font-style: normal;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+/* LINKS */
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+a {
+  color: black;
+  transition: .25s;
+}
+
+a:hover{
+  color: red;
+  transition: .25s;
+}
+
+/* SPACER */
+.spacer {
+  display: block;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1.5px solid black;
+  width: 100%;
+  height: 1.5px;
+}
+
+/* CONTENT */
+#content {
+  display: inline-block;
+  margin: 0;
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 70%;
+  height: auto;
+}
+
+.collection {
+  display: inline-block;
+  margin: 0;
+  width: 90%;
+}
+
+.collection > a > img{
+  display: inline-block;
+  margin: 0;
+  margin-right: 1%;
+  width: 17%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.bottom-whitespace {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  margin-bottom: 300px;
+}
+
+/* HEADER */
+#header {
+  float: right;
+  display: inline-block;
+  margin: 0;
+  margin-top: 2%;
+  margin-right: 2%;
+  width: 25%;
+  height: auto;
+}
+
+.collection-nav {
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* COLLECTIONS DETAILS */
+
+
+#collection-frames {
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  /* margin-left: 50px; */
+  width: 100%;
+}
+
+.collection-title{
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  /* margin-left: 50px; */
+  width: 100%;
+}
+
+.frame {
+  text-align: left;
+  display: inline-block;
+  margin: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  width: 40%;
+  height: auto;
+}
+/* .collection-title {
+  display: block;
+} */
+
+.frame > img {
+  display: block;
+  margin: 0;
+  width: 95%;
+}
+
+.frame-spacer {
+  display: block;
+  margin: 0;
+  border-bottom: 1.5px solid black;
+  width: 100%;
+  height: 1.5px;
+}
+
+.frame-info {
+  display: inline-block;
+  margin: 0;
+  margin-right: 17%;
+
+}
+
+.frame-info > p, .frame-info-offset > p {
+  position: relative;
+  bottom: 10px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.frame-info-offset {
+  display: inline-block;
+  margin: 0;
+}
+
+/* IMAGE HOVER INVISIBLE IMAGE */
+/* .image-hover {
+  opacity: 0;
+  display: none;
+  margin: 0 auto;
+}
+
+.frame:hover .image-hover img{
+
+  position: absolute;
+  display:block;
+  opacity:1;
+  transition:.2s;
+  width: 30vw;
+  z-index: 10000;
+} */
+
+/* MASTER MASTERLEDGER */
+
+#master-title {
+  /* text-align: center; */
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-left: 50px;
+  width: 100%;
+}
+
+#master-content {
+  text-align: center;
+  display: inline-block;
+  margin-left: 50px;
+  width: 100%;
+}
+
+.master-row {
+  display: inline-block;
+  text-align: left;
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 940px;
+  /* margin-left: 100px; */
+}
+
+.master-data {
+  display: inline-block;
+  text-align: left;
+  /* margin-right: 50px; */
+  width: 7%;
+}
+
+.master-data > p {
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  width: 100%;
+}
+
+.data-spacer {
+  display: block;
+  margin: 0;
+  border-bottom: 1.5px solid black;
+  width: 90%;
+  height: 1.5px;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #06180e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #06180e;
+}
